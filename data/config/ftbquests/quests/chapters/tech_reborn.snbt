@@ -25,10 +25,10 @@
 			icon: "techreborn:manual"
 			x: -20.0d
 			y: 3.0d
-			subtitle: "Tech Reborn is a tech mod including tools and machines to gather resources, process materials, and progress through the mod."
+			subtitle: "Tech Reborn  это технологический мод, включающий инструменты и машины для сбора ресурсов, обработки материалов и продвижения по моду."
 			description: [
-				"You start from burning coal for energy to reacting different fluids in fusion reactor for generating energy"
-				"> Yes it does give a refined iron"
+				"Вы начинаете от сжигания угля для получения энергии до реакции различных жидкостей в термоядерном реакторе для получения энергии".
+				"> Да, это дает очищенное железо".
 			]
 			id: "37F10FC248B237FF"
 			tasks: [{
@@ -51,11 +51,11 @@
 			}
 			x: -20.0d
 			y: 5.0d
-			subtitle: "Used to extract sap from rubber trees."
+			subtitle: "Используется для извлечения каучука из каучуковых деревьев."
 			description: [
-				"The Sap is placed into the inventory of the player that is using it."
+				"Краник помещается в инвентарь игрока, который его использует".
 				""
-				"It's durability lasts 20 uses before it is destroyed."
+				"Его прочность равна 20 использованиям, прежде чем он будет уничтожен".
 			]
 			dependencies: ["37F10FC248B237FF"]
 			id: "7E7E9BDBB70B25C1"
@@ -104,13 +104,13 @@
 			]
 		}
 		{
-			title: "Refining Iron"
+			title: "Очищенное железо"
 			x: -18.0d
 			y: 3.0d
-			subtitle: "An Iron Ingot in a furnace.. It's now refined!"
+			subtitle: "Железный слиток в печи... Теперь он очищен!"
 			description: [
-				"Refined Iron is the key ingredient in most of Tech Reborn,"
-				"You'll need alot of it."
+				" Очищенное железо является ключевым ингредиентом для большинства рецептов Tech Reborn,"
+				"Вам понадобится его много".
 			]
 			dependencies: ["37F10FC248B237FF"]
 			id: "38EAD09F2E4BE8B8"
@@ -137,7 +137,7 @@
 		{
 			x: -13.5d
 			y: 3.0d
-			subtitle: "A part used in crafting the basic machines, tools, and their component parts."
+			subtitle: "Деталь, используемая при изготовлении основных машин, инструментов и их составных частей".
 			dependencies: [
 				"38EAD09F2E4BE8B8"
 				"287488B90D26152E"
@@ -162,17 +162,17 @@
 			]
 		}
 		{
-			title: "Generating Power"
+			title: "Генерация энергии"
 			icon: "techreborn:solid_fuel_generator"
 			x: -13.5d
 			y: -8.0d
-			subtitle: "The most basic power generator in the mod and produces energy by burning coal or wood."
+			subtitle: "Самый простой электрогенератор в моде, он производит энергию путем сжигания угля или древесины."
 			description: [
-				"It will power adjacent blocks or remote blocks using cables."
+				"Он будет питать соседние блоки или удаленные блоки с помощью кабелей."
 				""
-				"It is also used as an ingredient for more advanced machines. "
+				"Он также используется в качестве ингредиента для более совершенных машин. "
 				""
-				"It will not consume fuel if there is not enough room to store the produced energy (e.g. It will pause burning the fuel until there is room for another tick worth of energy)."
+				"Он не будет расходовать топливо, если не хватает места для хранения произведенной энергии (например, он приостановит сжигание топлива, пока не найдется место для еще одного тика энергии)."
 			]
 			dependencies: ["14F7AC09561537D7"]
 			id: "495D51C7C05AF3B8"
@@ -197,8 +197,8 @@
 		{
 			x: -12.0d
 			y: 5.0d
-			subtitle: "A machine that behaves like a Furnace, and consumes Energy instead of fuel."
-			description: ["To be exact, using a single piece of coal in a coal generator and 4x Overclock upgrades it lets you smelt 222 items."]
+			subtitle: "Машина, которая ведет себя как печь и потребляет энергию вместо топлива".
+			description: ["Если быть точным, то использование одного куска угля в угольном генераторе и его 4-кратный разгон позволяет выплавить 222 предмета"].
 			dependencies: ["080ED62486BE9176"]
 			id: "74D403CD901F8CB3"
 			tasks: [{
@@ -222,10 +222,10 @@
 		{
 			x: -12.5d
 			y: -3.5d
-			subtitle: "Grind some stuffs"
+			subtitle: "Измельчи больше предметов"
 			description: [
-				"> It can make gravel from cobblestone"
-				"> And sand from gravel "
+				"> Он может сделать гравий из булыжника"
+				"> И песок из гравия"
 			]
 			dependencies: ["14F7AC09561537D7"]
 			id: "2C5CADD6727AB741"
@@ -250,8 +250,8 @@
 		{
 			x: -17.0d
 			y: 1.5d
-			subtitle: "Works much like a traditional furnace, except that it is 56.25% more efficient with the fuel you use."
-			description: ["Can auto input and output."]
+			subtitle: "Работает так же, как и традиционная печь, за исключением того, что она на 56,25% эффективнее расходует топливо, которое вы используете".
+			description: ["Может автоматически вводить и выводить предметы"].
 			dependencies: ["38EAD09F2E4BE8B8"]
 			id: "52ECFF0F13BAE84D"
 			tasks: [{
@@ -275,7 +275,7 @@
 		{
 			x: -15.0d
 			y: -1.5d
-			subtitle: "Mainly used to extract rubber and dyes."
+			subtitle: "В основном используется для добычи резины из каучука и красителей".
 			dependencies: ["14F7AC09561537D7"]
 			id: "29EAEF6690B64BCE"
 			tasks: [{
@@ -299,8 +299,8 @@
 		{
 			x: -14.5d
 			y: -3.5d
-			subtitle: "Lets you put items in cells"
-			description: ["Usefull if you want to go bio-fuel way"]
+			subtitle: "Позволяет помещать элементы в ячейки"
+			description: ["Полезно, если вы хотите пойти по пути биотоплива"].
 			dependencies: ["14F7AC09561537D7"]
 			id: "7DA41D6D61CBE36B"
 			tasks: [{
@@ -324,8 +324,8 @@
 		{
 			x: -4.5d
 			y: 0.0d
-			subtitle: "Used to produce various coils, and vanilla items such as rails and carts."
-			description: ["> Can be slot locked"]
+			subtitle: "Используется для производства различных катушек и ванильных изделий, таких как рельсы и тележки".
+			description: ["> Может быть заблокирован слот"].
 			dependencies: ["332C0D2800027688"]
 			id: "774F9B1EC7506A41"
 			tasks: [{
@@ -349,7 +349,7 @@
 		{
 			x: -17.0d
 			y: -1.5d
-			subtitle: "Lets you make wires efficiently"
+			subtitle: "Позволяет эффективно создавать провода".
 			dependencies: ["29EAEF6690B64BCE"]
 			id: "601D312DA27E2CB7"
 			tasks: [{
@@ -375,7 +375,7 @@
 			icon: "techreborn:scrapboxinator"
 			x: -4.0d
 			y: -7.5d
-			subtitle: "Converts any item you put into it into Scrap with a 1 in 6 chance to do so."
+			subtitle: "Превращает любой предмет, который вы в него положите, в утильсырье с вероятностью 1 к 6".
 			dependencies: ["28AE94AD5A93CF2F"]
 			id: "127E953AF11261F9"
 			tasks: [
@@ -400,10 +400,10 @@
 		{
 			x: -19.0d
 			y: 0.0d
-			subtitle: "It lets you automatically collect sap from trees"
+			subtitle: "Он позволяет автоматически собирать каучук с деревьев".
 			description: [
-				"> To automate, place a hopper or pipes under it."
-				"> Make sure the tree has a sap spot."
+				"> Для автоматизации установите под ним воронку или трубы."
+				"> Убедитесь, что на дереве есть каучуковоеотделение"
 			]
 			dependencies: ["5FA218AD7AA5A48C"]
 			id: "7223F6B9C818DE3C"
@@ -433,7 +433,7 @@
 		{
 			x: -4.5d
 			y: 3.0d
-			subtitle: "Used in crafting the advanced machines, tools, and their component parts."
+			subtitle: "Используется для создания современных машин, инструментов и их составных частей".
 			dependencies: ["080ED62486BE9176"]
 			id: "332C0D2800027688"
 			tasks: [{
@@ -450,7 +450,7 @@
 		{
 			x: -12.5d
 			y: -9.5d
-			subtitle: "Produces energy from sunlight."
+			subtitle: "Производит энергию из солнечного света".
 			dependencies: [
 				"495D51C7C05AF3B8"
 				"53C9A64CC798A992"
@@ -477,7 +477,7 @@
 		{
 			x: -12.5d
 			y: -11.0d
-			subtitle: "Produces energy from sunlight."
+			subtitle: "Производит энергию из солнечного света".
 			dependencies: ["231650F0EE0FFD28"]
 			id: "4BF36AC1C5DB6FDD"
 			tasks: [{
@@ -502,7 +502,7 @@
 		{
 			x: -12.5d
 			y: -12.5d
-			subtitle: "Produces energy from sunlight."
+			subtitle: "Производит энергию из солнечного света".
 			dependencies: ["4BF36AC1C5DB6FDD"]
 			id: "738BAB5E113ECBE0"
 			tasks: [{
@@ -527,7 +527,7 @@
 		{
 			x: -12.5d
 			y: -14.0d
-			subtitle: "Produces energy from sunlight."
+			subtitle: "Производит энергию из солнечного света".
 			dependencies: ["738BAB5E113ECBE0"]
 			id: "1ECACA41BE117CB8"
 			tasks: [{
@@ -552,7 +552,7 @@
 		{
 			x: -10.0d
 			y: -14.0d
-			subtitle: "Produces energy from sunlight."
+			subtitle: "Производит энергию из солнечного света".
 			dependencies: [
 				"1ECACA41BE117CB8"
 				"19F81045C86B4A64"
@@ -580,7 +580,8 @@
 		{
 			x: -2.5d
 			y: 4.0d
-			subtitle: "A Crafting Table but.. Automated?"
+			subtitle: "Верстак, но... автоматизированный?"
+
 			dependencies: ["332C0D2800027688"]
 			id: "7A6BBBCE1F1D27BC"
 			tasks: [{
@@ -597,19 +598,19 @@
 		{
 			x: -19.0d
 			y: 1.5d
-			subtitle: "A simple contraption that is used to automate the gathering of fluid (Mostly water)."
+			subtitle: "Простое приспособление, которое используется для автоматизации сбора жидкости (в основном воды)".
 			description: [
-				"It works in a simple fashion, any source fluid directly above it is put into its internal tank (Can only hold a bucket worth of liquid)."
+				"Работает он просто: любая исходная жидкость, находящаяся прямо над ним, попадает в его внутренний резервуар (вмещает только ведро жидкости)."
 				""
-				"This can then be pumped out, either by machines or tank units (All sides output besides of course the top of it)."
+				"Затем она может быть выкачана, либо машинами, либо резервуарными установками (Все стороны выхода, кроме, конечно, верхней части)."
 				""
-				"This is particularly useful for 2×2 infinite water ponds, simply place the drain under one of the source blocks and watch it drain away. "
+				"Это особенно полезно для прудов с бесконечной водой 2×2, просто поместите слив под один из исходных блоков и наблюдайте, как он стекает. "
 				""
-				"You should probably place a tank underneath the drain and configure it to pull from the drain above it using the interface of the tank."
+				"Вероятно, вам следует поместить резервуар под стоком и настроить его так, чтобы он тянул воду из стока над ним, используя интерфейс резервуара".
 				""
-				"It does not require an energy source nor consumes anything, it's entirely gravity-based."
+				"Он не требует источника энергии и ничего не потребляет, он полностью основан на гравитации".
 				""
-				"Can be used to auto-fill buckets."
+				"Может использоваться для автоматического наполнения ведер".
 			]
 			dependencies: ["38EAD09F2E4BE8B8"]
 			id: "5FA218AD7AA5A48C"
@@ -635,7 +636,7 @@
 		{
 			x: -18.0d
 			y: 1.5d
-			subtitle: "Main purpose is to emit sound when given a red-stone signal."
+			subtitle: "Основное назначение - издавать звук при подаче сигнала редстоуна.
 			dependencies: ["38EAD09F2E4BE8B8"]
 			id: "4DDFB090305954A4"
 			tasks: [{
@@ -665,7 +666,7 @@
 		{
 			x: -13.5d
 			y: 5.0d
-			subtitle: "Increases the speed of TR machines"
+			subtitle: "Увеличивает скорость работы механизмов"
 			dependencies: ["080ED62486BE9176"]
 			id: "702DD411DE338F78"
 			tasks: [{
@@ -695,7 +696,7 @@
 		{
 			x: -5.0d
 			y: -9.5d
-			subtitle: "A machine used to automate opening Scrap Boxes."
+			subtitle: "Машина, используемая для автоматизации открытия коробок с утильсырьем".
 			dependencies: ["61517C2A4ECB3929"]
 			id: "1DA5041B82D4FCCF"
 			tasks: [{
@@ -712,7 +713,7 @@
 		{
 			x: -2.0d
 			y: 3.0d
-			subtitle: "Used to assemble components out of ingredients."
+			subtitle: "Используется для сборки компонентов из ингредиентов".
 			dependencies: ["332C0D2800027688"]
 			id: "62A66B8FC37FE0A7"
 			tasks: [{
@@ -729,19 +730,18 @@
 		{
 			x: -4.5d
 			y: -3.0d
-			subtitle: "A multi-block machine used to smelt tough metals."
+			subtitle: "Многоблочная машина, используемая для выплавки прочных металлов".
 			description: [
-				"It has an input rate of 512 E/tick and an internal buffer for 40.000 E. "
+				"Он имеет скорость ввода 512 E/тик и внутренний буфер на 40.000 E".
 				""
-				"The smelting abilities depends on the casings used for the multi-block."
+				"Плавильные способности зависят от обшивок, используемых для мультиблока".
 				""
-				"The Blast Furnace requires a 3×4 multi-block with a hole in the center. The Multi-block can be built from different machine casings. Possible options are:"
-				"- Basic Machine Casing"
-				"- Advanced Machine Casing"
-				"- Industrial Machine Casing"
+				"Для доменной печи требуется мультиблок 3×4 с отверстием в центре. Мультиблок может быть построен из различных корпусов машин. Возможные варианты:""
+				"- Базовая обшивка машины"
+				"- Улучшенная обшивка машины"
+				"- Промышленная обшивка машины"
 				""
-				"This will result in heat being produced inside the furnace and thus have the ability to smelt the toughest ores (this however depends on the type of casing used)."
-			]
+				"Это приведет к выделению тепла внутри печи и, следовательно, к способности плавить самые твердые руды (это, однако, зависит от типа используемых обшивок."			]
 			dependencies: ["52911820CB96E94F"]
 			id: "1036ABDD2CA5A382"
 			tasks: [{
@@ -758,19 +758,19 @@
 		{
 			x: -5.5d
 			y: 4.5d
-			subtitle: "A multi-block wood processing machine."
+			subtitle: "Многоблочный станок для обработки древесины".
 			description: [
-				"The Saw Mill multi-block has 3 layers:"
+"Мультиблочная Пилорама имеет 3 слоя:"
 				""
-				"The first layer contains 9x Basic Machine Casing."
+				"Первый слой содержит 9x базовой обшивки машины."
 				""
-				"The second layer contains 8x Advanced Machine Casing with a central hole filled with water."
+				"Второй слой содержит 8x Улучшенной обшивки машины с центральным отверстием, заполненным водой."
 				""
-				"The third layer again contains 9x Basic Machine Casing."
+				"Третий слой снова содержит 9x базовой обшивки машины."
 				""
-				"Place Saw Mill block on the top and connect it to a power source."
+				"Поместите блок Пилорамы на вершину и подключите его к источнику питания".
 				""
-				"Put wood and water into the input slot. The Saw Mill will produce planks, and with a chance of some Saw Dust and paper."
+				"Поместите древесину и воду во входной слот. Пилорама будет производить доски, а также, возможно, немного опилок и бумаги."
 			]
 			dependencies: ["332C0D2800027688"]
 			id: "4F9824BDD714C7A1"
@@ -786,16 +786,16 @@
 			}]
 		}
 		{
-			title: "Greenhouse Controller"
+			title: "Контроллер теплицы"
 			x: -3.5d
 			y: 4.5d
-			subtitle: "Harvest and replant crops in 9×9 area behind it."
+			subtitle: "Собрирает урожай и садит культуры на участок 9×9 за ним".
 			description: [
-				"Place the Greenhouse Controller on the ground, provide energy and put some crops behind it."
+				"Поместите контроллер теплицы на землю, обеспечьте его энергией и посадите за ним несколько культур".
 				""
-				"Standard Minecraft requirements applies to crops, like watered and tilled dirt for wheat or nearby water for sugar cane."
+				"К культурам применяются стандартные требования Minecraft, например, политая и обработанная земля для пшеницы или близлежащая вода для сахарного тростника."
 				""
-				"Powered lamps above crops will speed-up growth."
+				"Лампы с питанием над культурами ускорят рост".
 			]
 			dependencies: ["332C0D2800027688"]
 			id: "1DC2B0C6E54CC5CF"
@@ -813,19 +813,19 @@
 		{
 			x: -6.5d
 			y: 4.0d
-			subtitle: "A multi-block machine that allows better grinding of items."
+			subtitle:"Многоблочный механизм, позволяющий лучше измельчать предметы".
 			description: [
-				"The Industrial Grinder multi-block has 3 layers:"
+"Мультиблок промышленной дробилки имеет 3 слоя:"
 				""
-				"The first layer consists of 9x Basic Machine Casing."
+				"Первый слой состоит из 9x Базовой обшивки машины."
 				""
-				"The second layer consists of 8x Advanced Machine Casing will central hole filled with water."
+				"Второй слой состоит из 8x Улучшенной обшивки машины, центральное отверстие заполнено водой".
 				""
-				"The third layer again contains 9x Basic Machine Casing."
+				"Третий слой снова состоит из 9x Базовой обшивки машины".
 				""
-				"Attach the Industrial Grinder to the middle layer centre and connect it to a power source."
+"Прикрепите промышленную дробилку к центру среднего слоя и подключите ее к источнику питания."
 				""
-				"Check REI for usages. Press the U keybind while hovering over the machine."
+				"Проверьте REI на предмет использования. Нажмите клавишу U, наведясь на машину".
 			]
 			dependencies: ["332C0D2800027688"]
 			id: "39327B645752BFC7"
@@ -843,11 +843,11 @@
 		{
 			x: -4.5d
 			y: 5.0d
-			subtitle: "A multi-block that can be used to craft items."
+			subtitle: "Мультиблок, который можно использовать для изготовления предметов".
 			description: [
-				"Has a button in the gui that can be used to show a Hologram that can help when placing the blocks."
+				"Имеет кнопку в gui, которая может быть использована для показа голограммы, которая может помочь при размещении блоков."
 				""
-				"Note the blocks are under the vacuum freezer"
+				"Обратите внимание, что блоки находятся под вакуумной морозильной камерой"
 			]
 			dependencies: ["332C0D2800027688"]
 			id: "2FFC8B09FF4C9188"
@@ -865,23 +865,23 @@
 		{
 			x: 4.5d
 			y: 1.5d
-			subtitle: "Requires Advanced Circuit and Advanced Machine Casing"
+			subtitle: "Требуется продвинутая схема и улучшенный корпус машины"
 			description: [
-				"Uses the raw power of TNT to make items."
+			"Использует сырую силу тротила для создания предметов".
 				""
-				"It is a multi-block machine with 64k energy buffer and 64 E\\t input rate."
+				"Это многоблочная машина с буфером энергии 64k и скоростью ввода 64 E\\t."
 				""
-				"The Implosion Compressor multi-block has 3 layers:"
+				"Мультиблок Компрессора Внутреннего Взрыва имеет 3 уровня:"
 				""
-				"The first layer contains 9x Advanced Machine Casing."
+				"Первый слой содержит 9x Улучшенной обшивки машины."
 				""
-				"The second layer containts have 8x Advanced Machine Casing with a hole in the centre."
+				"Второй слой содержит 8x Улучшенной обшивки машины с отверстием в центре".
 				""
-				"The third layer is the same as the first layer."
+				"Третий слой такой же, как и первый".
 				""
-				"Put the Implosion Compressor on the top and provide some energy to it."
+				"Поместите Компрессор Внутреннего Взрыва на вершину и подайте на него энергию".
 				""
-				"Check REI for usages."
+				"Проверьте REI для использования".
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -903,19 +903,19 @@
 		{
 			x: 7.5d
 			y: 7.5d
-			subtitle: "A multiblock machine that is used to crack oil into components."
+			subtitle: "Многоблочная машина, которая используется для расщепления нефти на компоненты".
 			description: [
-				"Distillation tower requires 3x3x4 multi-block with hallow in the center."
+				"Дистилляционная башня требует мультиблок 3x3x4 с гало в центре."
 				""
-				"First layer is made of 9xBasic Machine Casing."
+				"Первый слой сделан из 9x Базовой обшивки машины."
 				""
-				"Second layer is made of 8xIndustrial Machine Casing."
+				"Второй слой сделан из 8x Промышленной обшивки машины."
 				""
-				"Third layer is made of 8xBasic Machine Casing."
+				"Третий слой сделан из 8x Базовой обшивки машины."
 				""
-				"Top Layer is made of 9xIndustrial Machine Casing."
+				"Верхний слой сделан из 9x Промышленной обшивки машины."
 				""
-				"Attach machine to the bottom center block and power it."
+				"Прикрепите машину к нижнему центральному блоку и подайте на нее питание".
 			]
 			dependencies: [
 				"1B90F725CD4CE3EC"
@@ -952,7 +952,7 @@
 		{
 			x: -3.0d
 			y: 0.0d
-			subtitle: "Used to combine two Fluids (and other assorted items) into a third fluid or item."
+			subtitle: "Используется для объединения двух жидкостей (и других предметов) в третью жидкость или предметы".
 			dependencies: ["332C0D2800027688"]
 			id: "7A3A6C9CD58BBF0B"
 			tasks: [{
@@ -969,13 +969,13 @@
 		{
 			x: -6.5d
 			y: -11.0d
-			subtitle: "Requires Lapotronic Energy Orb and Industrial Machine Frame quests."
+			subtitle: "Требуются Лазуротроновый Энергетические Кристаллы и Промышленные машинный корпус".
 			description: [
-				"Used to produce UU-Matter which in turn can be used to craft various vanilla items."
+				"Используется для производства UU-материи, которая, в свою очередь, может быть использована для изготовления различных ванильных предметов."
 				""
-				"Both Scrap and Scrap Boxes can be used in the Matter Fabricator. "
+				"И утильсырье, и коробки с утильсырьем могут быть использованы в изготовителе материи. "
 				""
-				"The first one will give you 2% on the progress bar for producing a single piece of UU-Matter which means that to produce 1x UU-Matter, you will need 50x Scrap."
+				"Первый даст вам 2% на шкале прогресса для производства одного куска UU-материи, что означает, что для производства 1x UU-материи вам понадобится 50x утильсырья."
 			]
 			dependencies: [
 				"61517C2A4ECB3929"
@@ -1014,7 +1014,7 @@
 		{
 			x: -6.5d
 			y: -14.0d
-			subtitle: "Made in the Matter Fabricator."
+			subtitle: "Сделано в изготовителе материи."
 			dependencies: ["03DAA329F9455588"]
 			id: "19F81045C86B4A64"
 			tasks: [{
@@ -1047,7 +1047,7 @@
 		{
 			x: 0.0d
 			y: -1.0d
-			subtitle: "Middle tier of portable energy storage."
+			subtitle: "Средний уровень портативных накопителей энергии".
 			dependencies: [
 				"75D4C4D5CC7CFC33"
 				"303DF6C3CE1D4D58"
@@ -1067,7 +1067,7 @@
 		{
 			x: 0.0d
 			y: 1.5d
-			subtitle: "A portable battery used to charge items."
+			subtitle: "Портативный аккумулятор, используемый для зарядки предметов".
 			dependencies: [
 				"7315D07FDA5234CC"
 				"664C969EC4DCB4AB"
@@ -1173,13 +1173,13 @@
 		{
 			x: -3.0d
 			y: -2.0d
-			subtitle: "A passive generator that produces energy from wind."
+			subtitle: "Пассивный генератор, вырабатывающий энергию из ветра".
 			description: [
-				"Generates +25% E during thunderstorms."
+				"Генерирует +25% Е во время грозы".
 				""
-				"Must be placed above y=64 to produce energy."
+				"Должен быть размещен выше y=64, чтобы производить энергию."
 				""
-				"Outputs energy on all sides but the front."
+				"Вырабатывает энергию со всех сторон, кроме передней."
 			]
 			dependencies: ["29223CA896E9020C"]
 			id: "5C2E92909FFB686C"
@@ -1197,7 +1197,7 @@
 		{
 			x: -17.0d
 			y: 4.5d
-			subtitle: "Cables transfer energy across blocks."
+			subtitle: "Кабели передают энергию через блоки".
 			dependencies: ["7E7E9BDBB70B25C1"]
 			id: "02FA1ABFB138CDF9"
 			tasks: [{
@@ -1214,7 +1214,7 @@
 		{
 			x: -15.0d
 			y: 5.0d
-			subtitle: "A portable battery used to charge items."
+			subtitle: "Портативный аккумулятор, используемый для зарядки предметов".
 			dependencies: ["02FA1ABFB138CDF9"]
 			id: "287488B90D26152E"
 			tasks: [{
@@ -1231,8 +1231,8 @@
 		{
 			x: -13.5d
 			y: -1.5d
-			subtitle: "Used to build basic machines."
-			description: ["NOTE: Before having access to a Compressor, you'll need to use the Forge Hammer from MI to craft plates of said kind."]
+			subtitle: "Используется для создания базовых машин".
+			description: ["ПРИМЕЧАНИЕ: Прежде чем получить доступ к компрессору, вам нужно будет использовать кузнечный молот из MI для изготовления пластин такого рода"].
 			dependencies: ["080ED62486BE9176"]
 			id: "14F7AC09561537D7"
 			tasks: [{
@@ -1249,8 +1249,8 @@
 		{
 			x: -6.5d
 			y: -7.5d
-			subtitle: "Requires Basic Machine Frame quest."
-			description: ["Used to more efficiently craft plates."]
+			subtitle: "Требуется Базовый машинны корпус".
+			description: ["Используется для более эффективного изготовления пластин"].
 			dependencies: ["0492C08143ECC6A0"]
 			id: "28AE94AD5A93CF2F"
 			tasks: [{
@@ -1286,7 +1286,7 @@
 		{
 			x: -9.0d
 			y: -6.0d
-			subtitle: "A crafting ingredient used to build advanced machines."
+			subtitle: "Компонент, используемый для создания продвинутых машин".
 			dependencies: [
 				"52CB3A07B568EA44"
 				"55B786BB8266FDDD"
@@ -1336,7 +1336,7 @@
 		{
 			x: -12.0d
 			y: -1.5d
-			subtitle: "Used to build multi-block machines."
+			subtitle: "Используется для создания многоблочных машин".
 			dependencies: ["14F7AC09561537D7"]
 			id: "34F3A1E5619563CF"
 			tasks: [{
@@ -1385,7 +1385,7 @@
 		{
 			x: -10.5d
 			y: -1.5d
-			subtitle: "Used to build multi-block machines."
+			subtitle: "Используется для создания многоблочных машин".
 			dependencies: [
 				"34F3A1E5619563CF"
 				"5FC861C164778DCA"
@@ -1405,7 +1405,7 @@
 		{
 			x: -9.0d
 			y: -1.5d
-			subtitle: "Used to build multi-block machines."
+			subtitle: "Используется для создания многоблочных машин".
 			dependencies: [
 				"1B05A0906E2E953B"
 				"0CA0E0FFBE3B0BB0"
@@ -1442,7 +1442,7 @@
 		{
 			x: -6.0d
 			y: -1.5d
-			subtitle: "Used in several late game crafting recipes."
+			subtitle: "Используется в нескольких рецептах крафта в поздней игре".
 			dependencies: ["1036ABDD2CA5A382"]
 			id: "5B3E40FC5ED9142A"
 			tasks: [{
@@ -1459,7 +1459,7 @@
 		{
 			x: -9.0d
 			y: -4.5d
-			subtitle: "A crafting ingredient used to build industrial machines."
+			subtitle: "Компонент, используемый для создания промышленных машин".
 			dependencies: [
 				"7ADF57E4CA4360D5"
 				"2EF919FC3B926B31"
@@ -1530,7 +1530,7 @@
 		{
 			x: -9.5d
 			y: -9.5d
-			subtitle: "Used in crafting Carbon mesh."
+			subtitle: "Используется при изготовлении углродной ткани".
 			dependencies: ["53C9A64CC798A992"]
 			id: "1B6FE6F215D9961E"
 			tasks: [{
@@ -1563,7 +1563,7 @@
 		{
 			x: -10.5d
 			y: 0.0d
-			subtitle: "A passive generator that produces energy from lightning strikes during thunderstorms."
+			subtitle: "Пассивный генератор, вырабатывающий энергию из ударов молнии во время грозы".
 			dependencies: ["0CA0E0FFBE3B0BB0"]
 			id: "680BD125E868663D"
 			tasks: [{
@@ -1580,7 +1580,7 @@
 		{
 			x: -3.0d
 			y: -6.0d
-			subtitle: "Requires Assembling Machine"
+			subtitle: "Требуется Сборочная машина"
 			dependencies: ["798D314ED3ACD680"]
 			id: "1173AB9C916F02ED"
 			tasks: [{
@@ -1597,13 +1597,13 @@
 		{
 			x: -17.0d
 			y: 5.5d
-			subtitle: "An advanced version of Treetap used to collect Sap from Rubber Trees."
+			subtitle: "Усовершенствованная версия Краника, используемая для сбора каучука с каучуковых деревьев".
 			description: [
-				"It has 10k Energy storage."
+			"У него есть накопитель энергии на 10 тысяч".
 				""
-				"One can charge it using Battery Box. "
+			"Его можно заряжать с помощью Энергонакопителя "
 				""
-				"One use of Electric Treetap will consume 50 Energy, so it can collect sap 200 times on one charge."
+			"Одно использование Электрической краника потребляет 50 энергии, поэтому она может собрать каучук 200 раз на одном заряде".
 			]
 			dependencies: [
 				"287488B90D26152E"
@@ -1624,7 +1624,7 @@
 		{
 			x: 1.5d
 			y: 0.0d
-			subtitle: "A portable battery used to charge items."
+			subtitle: "Портативный аккумулятор, используемый для зарядки предметов".
 			dependencies: [
 				"685F6A8A28DA99F9"
 				"7FB87F45B2A82F89"
@@ -1644,7 +1644,7 @@
 		{
 			x: 3.5d
 			y: 0.0d
-			subtitle: "A battery block that stores energy and charges items."
+			subtitle: "Энергохранитель, который накапливает энергию и заряжает предметы".
 			dependencies: ["2155B22C5C34388D"]
 			id: "362DD3B9DC3A2492"
 			tasks: [{
@@ -1661,11 +1661,11 @@
 		{
 			x: 5.5d
 			y: 0.0d
-			subtitle: "A battery block that stores energy and charges items, while wireless transferring energy to other IDSUs."
+			subtitle: ""Энергохранитель, который накапливает энергию и заряжает предметы, при беспроводной передаче энергии другим межпространственным SU."
 			description: [
-				"Acts similar to an Ender Chest but for energy instead of items; all IDSUs share the same energy storage."
+				"Действует аналогично сундуку Эндера, но для энергии вместо предметов; все межпространственныt SU используют один и тот же накопитель энергии."
 				""
-				"Works across distances (e.g. Overworld→Overworld) and dimensions (e.g. Overworld→Nether)."
+				"Работает через расстояния (например, Overworld→Overworld) и измерения (например, Overworld→Nether)".
 			]
 			dependencies: ["362DD3B9DC3A2492"]
 			id: "19F4701640BBBDD7"
@@ -1718,8 +1718,8 @@
 		{
 			x: 7.5d
 			y: 6.0d
-			subtitle: "Requires Advanced Circuit and Advanced Machine Casing"
-			description: ["Used to produce Fluids and Dusts from different items."]
+			subtitle: "Требуется продвинутая схема и продвинутый машинный корпус"
+			description: ["Используется для получения жидкостей и пыли из различных предметов"].
 			hide_dependency_lines: true
 			dependencies: [
 				"332C0D2800027688"
@@ -1762,7 +1762,7 @@
 		{
 			x: 7.5d
 			y: 4.5d
-			subtitle: "Requires Coal Dust quest to unlock."
+			subtitle: "Для разблокировки требуется квест "Угольная пыль"".
 			hide_dependency_lines: true
 			dependencies: [
 				"37F10FC248B237FF"
@@ -1839,21 +1839,21 @@
 		{
 			x: 3.0d
 			y: 6.5d
-			subtitle: "Part of a multi-block generator that produces energy from various fluids."
+			subtitle: "Часть многоблочного генератора, вырабатывающего энергию из различных жидкостей".
 			description: [
-				"It is unique in that it does not simply consume the fuel, but instead processes them into a new item. "
+				"Он уникален тем, что не просто потребляет топливо, а перерабатывает его в новый продукт. "
 				""
-				"It is also used as a machine to produce Platinum Dust and Iridium Ore."
+				"Он также используется как машина для производства платиновой пыли и иридиевой руды".
 				""
-				"It must be combined with a minimum of 16 Fusion Coils to create a usable fusion reactor."
+				"Для создания пригодного к использованию термоядерного реактора его необходимо объединить как минимум с 16 термоядерными катушками".
 				""
-				"It provides an adjustable hologram of the various sizes of multi-block with the H button on the item's menu. Togglable on and off."
+				"При нажатии кнопки H в меню предмета появляется настраиваемая голограмма мультиблока различных размеров. Можно включать и выключать."
 				""
-				"Outputs energy on the top and bottom while crafting."
+				"Выделяет энергию сверху и снизу во время создания".
 				""
-				"Inputs energy on the sides while not crafting."
+				"Вводит энергию по бокам, когда не занимается крафтом."
 				""
-				"Base Generation Rate - can be many multiples of this depending on the size of the reactor."
+				"Базовая скорость генерации - может быть во много раз больше, в зависимости от размера реактора."
 			]
 			dependencies: ["31CD58CAECD8F174"]
 			id: "30B795DF047C13A8"
@@ -1871,19 +1871,19 @@
 		{
 			x: -3.5d
 			y: -14.0d
-			subtitle: "An advanced machine capable of replicating fluid placed inside hallow in multiblock structure using energy and UU-Matter."
+			subtitle: "Усовершенствованная машина, способная воспроизводить жидкость, помещенную в многоблочную структуру внутри отверстия с использованием энергии и UU-материи".
 			description: [
-				"Fluid Replicator requires 3x3x1 multi-block with hallow in the center."
+				"Для Fluid Replicator требуется мультиблок 3x3x1 с отверстием в центре."
 				""
-				"First layer is made of 8x Reinforced Machine Casing."
+				"Первый слой сделан из 8x Улучшенной обшивки машины."
 				""
-				"Attach machine to multiblock on the same level."
+				"Прикрепите машину к мультиблоку на том же уровне."
 				""
-				"Put fluid to replicate inside hole in multi-block."
+				"Залейте жидкость, которую хотите воспроизвести во внутреннее отверстие в мультиблоке."
 				""
-				"Provide energy and UU-MatterUU-Matter to replicate fluid. "
+				"Обеспечьте энергию и UU-материю для репликации жидкости. "
 				""
-				"You can either use buckets \\ cells or pipes to extract fluid from internal tank."
+				"Вы можете использовать либо ведра \\ капсулы, либо трубы для извлечения жидкости из внутреннего резервуара."
 			]
 			dependencies: ["19F81045C86B4A64"]
 			id: "6B59F7EA80D47082"
@@ -1901,11 +1901,11 @@
 		{
 			x: -6.5d
 			y: -9.5d
-			subtitle: "Made using a Recycler."
+			subtitle: "Сделано с помощью утилизатора".
 			description: [
-				"You can put any items into it and with 1 in 6 chance you will have scrap produced. "
+				"Вы можете положить в него любые предметы, и с вероятностью 1 к 6 у вас получится утильсырье. "
 				""
-				"Scrap could be crafted into Scrap Boxes or used directly in Matter Fabricator to produce UU-Matter."
+				"Утильсырье может быть переработано в Коробки с утильсырьем или использован непосредственно в изготовителе материи для производства UU-материи."
 			]
 			dependencies: ["127E953AF11261F9"]
 			id: "61517C2A4ECB3929"
@@ -1923,11 +1923,11 @@
 		{
 			x: -3.5d
 			y: -9.5d
-			subtitle: "Crafted using nine scrap in a crafting table."
+			subtitle: "Создан с использованием девяти утильсырья в верстаке".
 			description: [
-				"When used, it will present the player with a random item."
+				"При его использовании игрок получит случайный предмет".
 				""
-				"It can also be placed in a Scrapbox-inator to perform this process automatically."
+				"Его также можно поместить в Утильсырьевщик, чтобы он выполнял этот процесс автоматически
 			]
 			dependencies: ["1DA5041B82D4FCCF"]
 			id: "5DEF0AE0EDB6A673"
@@ -1979,7 +1979,7 @@
 		{
 			x: -15.0d
 			y: -9.5d
-			subtitle: "Converts energy from Medium to Low tier."
+			subtitle: "Преобразует энергию из среднего уровня в низкий".
 			dependencies: ["495D51C7C05AF3B8"]
 			id: "3FE7D034B8F294E0"
 			tasks: [{
@@ -1996,7 +1996,7 @@
 		{
 			x: -15.0d
 			y: -11.0d
-			subtitle: "Converts energy from High to Medium tier. "
+			subtitle: "Преобразует энергию с высокого уровня на средний. "
 			dependencies: ["3FE7D034B8F294E0"]
 			id: "714A79CFC1404DDE"
 			tasks: [{
@@ -2013,7 +2013,7 @@
 		{
 			x: -14.5d
 			y: -12.5d
-			subtitle: "Converts energy from Extreme to High tier."
+			subtitle: "Преобразует энергию из Экстремального в Высокий уровень".
 			dependencies: ["714A79CFC1404DDE"]
 			id: "100FA16BBEF4B489"
 			tasks: [{
@@ -2030,11 +2030,11 @@
 		{
 			x: -2.0d
 			y: 6.5d
-			subtitle: "Produces energy from Heliumplasma."
+			subtitle: "Производит энергию из гелиевой плазмы".
 			description: [
-				" It has an internal Tank that can hold 10k mB of fluid (10 Buckets or Cells worth) which is consumed as it is converted to energy."
+				" Он имеет внутренний резервуар, способный вместить 10 тыс. мБ жидкости (10 ведер или ячеек), которая расходуется по мере преобразования в энергию."
 				""
-				"8,192,000E/1000 mB"
+				"8,192,000E/1000 мБ"
 			]
 			dependencies: [
 				"5DE908AD65A4CC15"
@@ -2056,13 +2056,13 @@
 			title: "LESU"
 			x: -15.5d
 			y: -12.5d
-			subtitle: "A battery multi-block that stores energy and charges items. "
+			subtitle: "Мультиблок энергохранилища, который накапливает энергию и заряжает предметы. "
 			description: [
-				"1 32 E/t base input, + 1 E/t per attached LESU Storage. "
+				"1 32 Э/т базового ввода, + 1 Э/т на каждое прикрепленное LESU хранилище. "
 				""
-				"If >= 32 attached, increased to 128 E\\t; If >= 128"
+				"Если >= 32 присоединенных, увеличивается до 128 E\\t; Если >= 128"
 				""
-				"Between 32 and 128, it will scale +1 E/t per LESU Storage2 x = number of LESU Storage blocks attached;\\\\eg. 5 Storage Blocks attached would have an output of 10 E/t (5+5) and a storage of 6 mE (1+5)"
+				"Между 32 и 128, он будет масштабироваться +1 Э/т на каждое LESU хранилище 2 x = количество подключенных блоков  LESU хранилище;\\eg. 5 подключенных блоков хранения будут иметь производительность 10 Э/т (5+5) и хранение 6 мЭ (1+5)"
 			]
 			dependencies: ["714A79CFC1404DDE"]
 			id: "6DC63970EA441319"
@@ -2103,8 +2103,8 @@
 		{
 			x: -10.5d
 			y: 5.0d
-			subtitle: "A Low tier machine which allows you to make alloys from ingots or dusts."
-			description: ["It consumes energy at 128E rate and has internal buffer of 4000E."]
+			subtitle: "Машина низкого уровня, позволяющая производить сплавы из слитков или пыли".
+			description: ["Он потребляет энергию со скоростью 128E и имеет внутренний буфер 4000E"].
 			dependencies: ["74D403CD901F8CB3"]
 			id: "0F53C9B2247549F8"
 			tasks: [{
@@ -2121,8 +2121,8 @@
 		{
 			x: 9.0d
 			y: 7.5d
-			subtitle: "Requires Advanced Circuit and Advanced Machine Casing"
-			description: ["Used to produce Fluids and Dusts from various items."]
+			subtitle: "Требуется Продвинутая микросхема и Улучшенный машинный корпус"
+			description: ["Используется для получения жидкостей и пыли из различных предметов."]
 			hide_dependency_lines: true
 			dependencies: [
 				"332C0D2800027688"
@@ -2143,15 +2143,15 @@
 		{
 			x: 6.0d
 			y: 7.5d
-			subtitle: "Produces energy from various fluids."
+			subtitle: "Производит энергию из различных жидкостей".
 			description: [
-				"It has an internal Tank that can hold 10k mB of fluid (10 Buckets or Cells worth) which is consumed as it is converted to energy."
+				"У него есть внутренний резервуар, который может вместить 10 тыс. мБ жидкости (10 ведер или капсул), которая расходуется по мере преобразования в энергию."
 				""
-				"Fuels (per 1000 mB):"
-				"- Nitrofuel = 24,000E"
-				"- Nitrocoal Fuel = 48,000E"
-				"- Diesel = 128,000E"
-				"- Nitro Diesel = 400,000E"
+				"Топливо (на 1000 мБ):"
+				"- Нитротопливо = 24,000E"
+				"- Нитроугольное топливо = 48,000E"
+				"- Дизельное топливо = 128,000E"
+				"- Нитродизель = 400,000E"
 			]
 			dependencies: ["065A4C02B5330469"]
 			id: "006DB846CDA49D53"
@@ -2169,7 +2169,7 @@
 		{
 			x: 1.5d
 			y: -1.5d
-			subtitle: "A battery block that stores energy and charges items."
+			subtitle: "Энергохранилище, которое накапливает энергию и заряжает предметы".
 			dependencies: ["664C969EC4DCB4AB"]
 			id: "1CB51F78A8965431"
 			tasks: [{
@@ -2186,7 +2186,7 @@
 		{
 			x: 1.5d
 			y: -3.0d
-			subtitle: "A passive generator that produces energy from the Dragon Egg."
+			subtitle: "Пассивный генератор, вырабатывающий энергию из Яйца Дракона".
 			dependencies: ["1CB51F78A8965431"]
 			id: "2C7B3EE836812CE0"
 			tasks: [{
@@ -2203,7 +2203,7 @@
 		{
 			x: 3.0d
 			y: -1.5d
-			subtitle: "A battery block that stores energy and charges items."
+			subtitle: "Энергохранилище, которое накапливает энергию и заряжает предметы".
 			dependencies: ["1CB51F78A8965431"]
 			id: "767EAD56D58E0F13"
 			tasks: [{
@@ -2218,16 +2218,16 @@
 			}]
 		}
 		{
-			title: "Alternative Generators"
+			title: "Альтернативные генераторы"
 			x: -15.0d
 			y: -8.0d
-			subtitle: "Power generation of choice."
+			subtitle: "Производство энергии на выбор".
 			description: [
-				"The Thermal Generator produces energy from lava. It has an internal Tank that can hold 10k mB (10 Buckets or Cells) of lava which is consumed as it is converted to energy."
+				"Тепловой генератор производит энергию из лавы. Он имеет внутренний резервуар, вмещающий 10 тыс. мб (10 ведер или ячеек) лавы, которая расходуется по мере преобразования в энергию."
 				""
-				"The Water Mill is a passive generator that produces energy from water."
+				"Водяная мельница - это пассивный генератор, который производит энергию из воды".
 				""
-				"The Semifluid Generator produces energy from various fluids. It has an internal Tank that can hold 10k mB of fluid (10 Buckets or Cells worth) which is consumed as it is converted to energy."
+				"Полужидкий генератор производит энергию из различных жидкостей. У него есть внутренний резервуар, вмещающий 10 тыс. мб жидкости (10 ведер или ячеек), которая расходуется по мере преобразования в энергию".
 			]
 			dependencies: ["495D51C7C05AF3B8"]
 			id: "249DD952A095BEA8"
@@ -2257,18 +2257,18 @@
 		{
 			x: -1.5d
 			y: -2.0d
-			subtitle: "Produces energy from various gases."
+			subtitle: "Производит энергию из различных газов".
 			description: [
-				"It has an internal Tank that can hold 10k mB of fluid (10 Buckets or Cells worth) which is consumed as it is converted to energy."
+				"У него есть внутренний резервуар, который может вместить 10 тыс. мБ жидкости (10 ведер или капсул), которая расходуется по мере преобразования в энергию."
 				""
-				"Hydrogen: 15,000E/1000 mB"
-				"Methane: 45,000E/1000 mB"
+				"Водород: 15,000E/1000 мБ"
+				"Метан: 45,000E/1000 мБ"
 				""
-				"Place a cell or bucket of fuel into the input slot to fill the internal tank."
+				"Поместите ячейку или ведро топлива во входной слот, чтобы заполнить внутренний бак".
 				""
-				"Can also be filled by an external Tank."
+				"Также может быть заполнен внешним резервуаром."
 				""
-				"Outputs energy on all sides."
+				"Выдает энергию со всех сторон".
 			]
 			dependencies: ["5C2E92909FFB686C"]
 			id: "7469E215199609F9"
@@ -2286,11 +2286,11 @@
 		{
 			x: -9.0d
 			y: 6.5d
-			subtitle: "Used to rotate or dismantle machines."
+			subtitle: "Используется для вращения или демонтажа машин".
 			description: [
-				"Many machines require the wrench to safely dismantle, and even where they don't, the wrench is faster and often offers distinct advantages, like preserving power levels and contents."
+				"Для безопасного демонтажа многих машин требуется гаечный ключ, и даже там, где это не так, гаечный ключ работает быстрее и часто дает явные преимущества, например, сохраняет уровень мощности и содержимое."
 				""
-				"Right-click to rotate machine. Sneak right-click to dismantle."
+				"Щелкните правой кнопкой мыши, чтобы повернуть машину. Незаметный щелчок правой кнопкой мыши для демонтажа".
 			]
 			dependencies: ["2650B1AD6B087F5D"]
 			id: "78379106778074EB"
@@ -2321,7 +2321,7 @@
 		{
 			x: -9.0d
 			y: 5.0d
-			subtitle: "An alloy used to craft several recipes."
+			subtitle: "Сплав, используемый для изготовления в нескольких рецептах".
 			dependencies: ["0F53C9B2247549F8"]
 			id: "2650B1AD6B087F5D"
 			tasks: [{
