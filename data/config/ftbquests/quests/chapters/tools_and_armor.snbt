@@ -3,7 +3,7 @@
 	group: "76C22988F9A7C9CE"
 	order_index: 1
 	filename: "tools_and_armor"
-	title: "Tools and Armor"
+	title: "Броня и Инструменты"
 	icon: "minecraft:smithing_table"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -11,11 +11,11 @@
 		{
 			x: -2.0d
 			y: -6.0d
-			subtitle: "Booking Enchants Downtown."
+			subtitle: "Город зачарованных книг."
 			description: [
-				"Lets you remove enchants and put them onto a book!"
+				"Позволяет вам снять зачарование с предмета и перенести его на книгу"
 				""
-				"Just right click the table with a book, then the item, and then just right click with Flint and Steel and Watch the Magic!"
+				"Просто нажми ПКМ на стол с книгой в руке, потом с ПКМ с предметом в руке, затем ПКМ с огнивом в руке и просто смотри за магией!"
 			]
 			dependencies: ["25B6D9950B1CF03C"]
 			id: "1FAD0B24E2253271"
@@ -50,8 +50,8 @@
 			icon: "xps:block_xp_obelisk"
 			x: 2.0d
 			y: -6.0d
-			subtitle: "Enchanting Efficiency"
-			description: ["If you did not know by now that as you level up you waste more and more experince points when enchanting. So instead of wasting experince why not store it in this handy container!"]
+			subtitle: "Эффективное зачаровние"
+			description: ["Если ты не знал, чем выше твой уровень, тем больше очков опыта ты тратишь при зачаровании, так почему бы не сохранять опыт с помощью этого контейнера?"]
 			dependencies: ["25B6D9950B1CF03C"]
 			hide: true
 			id: "73C866780EE5AD4F"
@@ -85,7 +85,7 @@
 		{
 			x: 0.0d
 			y: -4.0d
-			subtitle: "Choose your way of enchantment."
+			subtitle: "Выбери свой путь зачаровния."
 			dependencies: ["25B6D9950B1CF03C"]
 			id: "030CFE419C9627F0"
 			tasks: [{
@@ -102,8 +102,8 @@
 		{
 			x: 0.0d
 			y: -8.0d
-			subtitle: "Everlasting Longevity!"
-			description: ["The Dragon anvil works exactly like a normal anvil, but it never breaks, has no level cap, and won't ask you for more than 30 levels of experience."]
+			subtitle: "Бесконечная прочность!"
+			description: ["Драконья наковальня работает по тем же приниципам что и обычная, но она никогда не ломается, не имеете ограничения по уровню, и не будет просить у вас больше 30 уровней опыта."]
 			dependencies: ["25B6D9950B1CF03C"]
 			id: "1C8C22D89ACF248F"
 			tasks: [{
@@ -124,7 +124,7 @@
 			tasks: [{
 				id: "00364115C1D01F31"
 				type: "checkmark"
-				title: "Mysterious Enchanting"
+				title: "Мистическое зачаровние"
 			}]
 		}
 		{
@@ -134,15 +134,15 @@
 			tasks: [{
 				id: "3FC3E8AFB7E9B57D"
 				type: "checkmark"
-				title: "Armory"
+				title: "Броня"
 			}]
 		}
 		{
-			title: "Armory of Dragon"
+			title: "Драконья броня"
 			x: -8.5d
 			y: -2.5d
-			subtitle: "Harness the true strength of a dragon."
-			description: ["Scales are dropped by killing the Ender Dragon."]
+			subtitle: "Используй истинную силу дракона."
+			description: [Чешуя выпадает с Эндер Дракона."]
 			dependencies: ["35F0E2CEEE9D9AD0"]
 			id: "4E2C7A0B42F4588F"
 			tasks: [
@@ -198,10 +198,10 @@
 			}]
 		}
 		{
-			title: "Manasteel Armory"
+			title: "Броня из манастали"
 			x: -8.5d
 			y: 2.5d
-			subtitle: "Made out of Iron and Mana."
+			subtitle: "Сделана из железа и маны."
 			dependencies: ["35F0E2CEEE9D9AD0"]
 			id: "69EF6FE796539675"
 			tasks: [
@@ -257,16 +257,16 @@
 			}]
 		}
 		{
-			title: "Elementium Armory"
+			title: "Элементиевая броня"
 			x: -7.0d
 			y: 2.5d
-			subtitle: "Made in the Portal to Alfheim."
+			subtitle: "Сделана с помощью портала в Эльфхейм."
 			description: [
-				"If the player is wearing a complete set of Elementium armor, they will gain the Great Fairy's Blessing set bonus:"
+				" Если игрок будет носить полный комплект брони из элементия, он получиит благославление Великой Феи:"
 				""
-				"> 10% decrease of the Mana cost on all Mana-using tools and rods,"
+				"> 10% уменьшение затрат маны для всех инструментов использующих ману,"
 				""
-				"> Pixies spawned by the wearer will inflict a random potion effect for 2 seconds: either Blindness, Wither, Slowness or Weakness."
+				"> Пиксины призванные пользователем с некоторым шансом могут наложить случайный эффект зелий: Слепота, Иссушение, Замедление или Слабость."
 			]
 			dependencies: ["35F0E2CEEE9D9AD0"]
 			id: "0A0EE0B8F2CF1840"
@@ -323,20 +323,19 @@
 			}]
 		}
 		{
-			title: "Terrasteel Armory"
+			title: "Террасталевая броня"
 			x: -5.5d
 			y: 2.5d
-			subtitle: "Made via an infusion ritual."
+			subtitle: "Сделана с помощью ритуала вливания."
 			description: [
-				"If the player is wearing a complete set of Terrasteel armor, they will gain the Will of the Ancients set bonus:"
+				"Если игрок носит полный комплект доспехов из Террастасли, он получает бонус комплекта "Воля древних":".
 				""
-				"> Passive generation of 1 Mana per tick."
+				"> Пассивная генерация 1 маны за тик."
 				""
-				"> 20% decrease of Mana cost on all Mana-using tools and rods."
+				"> 20%-ное снижение затрат маны на все использующие ману инструменты и жезлы."
 				""
-				"> Passive regeneration of 2 health every 4 seconds if their hunger bar isn't full."
-				""
-				"> Effects of all Wills applied to the worn Terrasteel Helmet."
+				"> Пассивная регенерация 2 здоровья каждые 4 секунды, даже если вы проголодалисьа."
+
 			]
 			dependencies: ["35F0E2CEEE9D9AD0"]
 			id: "7E9CEA24C62A5EB5"
@@ -393,17 +392,18 @@
 			}]
 		}
 		{
-			title: "Gilded Netherite"
+			title: "Позолоченный незерит"
 			x: -7.0d
 			y: -2.5d
-			subtitle: "More durable than the netherite set and has a full set ability."
+			subtitle: "Более прочный, чем набор нетерита, и обладает способностью полного набора."
 			description: [
-				"The Gilded Netherite Armor is the upgraded netherite armor with a gilded netherite fragment."
+				"Позолоченная незеритовая броня - это модернизированная нетеритовая броня с позолоченным фрагментом незерита".
 				""
-				"If the player wears all four parts of the armor, they'll be able to press default key “v” to activate the armor indicated by a glowing red layer on the armor."
+				"Если игрок наденет все четыре части доспехов, он сможет нажать клавишу (по умолчанию) "v" , чтобы активировать доспехи, о чем будет свидетельствовать светящийся красный слой на доспехах".
 				""
-				"It will grant fire resistance, less receiving damage and lasts for 1 minute indicated by a small fire resistance symbol above the experience level symbol."
+				"Она дает сопротивление огню, уменьшает получаемый урон и действует в течение 1 минуты, на что указывает маленький символ сопротивления огню над символом уровня опыта."
 			]
+
 			dependencies: ["35F0E2CEEE9D9AD0"]
 			id: "1F084E4BED012340"
 			tasks: [
@@ -459,18 +459,19 @@
 			}]
 		}
 		{
-			title: "Armory of the Glitch"
+			title: "Глючная броня"
 			x: -5.5d
 			y: -2.5d
 			description: [
-				"Barely crafted Glitch Armor pieces are pretty good, but they can be better tho. If you got some extra Pristine Matter you can try using it to upgrade your armor. For this you will need to condense the matter into the armor using a Matter Condenser."
+			"Едва созданная броня Глюка довольно хороша, но она может быть и лучше. Если у вас есть немного первозданной материи, вы можете попробовать использовать ее для улучшения доспехов. Для этого вам нужно будет сгустить материю в броню с помощью Конденсатора материи."
 				""
-				"If you attempt to put a bound Data Model into a piece of armor you will be able to \"inherit\" some effects of the mobs of the category you choose."
+				"Если вы попытаетесь поместить связанную модель данных в броню, вы сможете \"унаследовать\" некоторые эффекты мобов выбранной вами категории."
 				""
-				"To do that, just get an armor piece in hands and right click, putting a Data Model into the slot."
+				"Чтобы сделать это, просто возьмите в руки кусок брони и щелкните правой кнопкой мыши, поместив модель данных в слот."
 				""
-				"The greater the tier of your armor, the greatest the effects you will be gifted with."
+				"Чем выше уровень вашей брони, тем больше эффектов вы получите в подарок."
 			]
+
 			dependencies: ["35F0E2CEEE9D9AD0"]
 			id: "3D26E1D59C05685A"
 			tasks: [
@@ -525,7 +526,7 @@
 			]
 		}
 		{
-			title: "Quantum Armory"
+			title: "Квантовая броня"
 			x: -9.5d
 			y: 0.0d
 			dependencies: ["35F0E2CEEE9D9AD0"]
@@ -559,14 +560,14 @@
 			}]
 		}
 		{
-			title: "Modular Armory"
+			title: "Модульная броня"
 			x: -4.5d
 			y: 0.0d
 			subtitle: "Smash modules on it!"
 			description: [
-				"The Modular Armor is, on it's own, not much, but when you install modules, it can become very powerful!"
+				"Модульная броня сама по себе не очень хороша, но если установить модули, она может стать очень мощной!"
 				""
-				"Notice that installing modules cost time and some energy!"
+				"Обратите внимание, что установка модулей требует времени и некоторого количества энергии!"
 			]
 			dependencies: ["35F0E2CEEE9D9AD0"]
 			id: "415E816A49301DC2"
@@ -605,19 +606,19 @@
 			tasks: [{
 				id: "56BB7CEC9FE309C4"
 				type: "checkmark"
-				title: "Tools"
+				title: "Инструмнеты"
 			}]
 		}
 		{
-			title: "Basic Tools"
+			title: "Базовые инструменты"
 			x: 3.0d
 			y: -1.5d
 			description: [
-				"Drill could be used as a replacement for Iron Pickaxe and Iron Shovel. It will cost 50 Energy to break one block."
+				"Железный Бур можно использовать в качестве замены Железной кирки и Железной лопаты. Чтобы разбить один блок, потребуется 50 энергии".
 				""
-				"Chainsaw could be used as a replacement for Iron Axe. It will cost 50 Energy to break one block."
+				"Железную цепну пилу можно использовать вместо железного топора. Чтобы сломать один блок, потребуется 50 энергии".
 				""
-				"Rock Cutter is a Diamond like tool with Silk Touch enchantment. It has 10k Energy storage. It uses Energy instead of durability to break a block. It will cost 10 Energy to break one block."
+				"Железный Отбойный молоток" - алмазоподобный инструмент с чарами "Шелковое прикосновение". В нем 10 тыс. энергии. Он использует энергию вместо прочности, чтобы разбить блок. Для разрушения одного блока потребуется 10 энергии".
 			]
 			dependencies: ["300FAC6161C1BCDB"]
 			id: "2C428C61C56220CD"
@@ -645,15 +646,15 @@
 			}]
 		}
 		{
-			title: "Advanced Tools"
+			title: "Продвинутые инструменты"
 			x: 3.0d
 			y: -0.5d
 			description: [
-				"Advanced Drill is an advanced version of Basic Drill and works same as Diamond Pickaxe or Diamond Shovel."
+				"Продвинутый бур  - это усовершенствованная версия Железного Бура и работает так же, как Алмазная Кирка или Алмазная Лопата."
 				""
-				"Advanced Chainsaw is a more advanced chainsaw compare to Basic Chainsaw."
+				"Продвинутая цепная пила - это более продвинутая бензопила по сравнению с Железной цепной пилой".
 				""
-				"Advanced Jackhammer is a more advanced version of Basic Jackhammer. Advanced Jackhammer is capable of 3×3 mining when set to active."
+				"Продвинутый отбойный молоток" - это более продвинутая версия железного отбойного молотка. Усовершенствованный отбойный молоток способен добывать 3×3, если он активен."
 			]
 			dependencies: ["300FAC6161C1BCDB"]
 			id: "5BC9A2F404AD73B7"
@@ -681,15 +682,15 @@
 			}]
 		}
 		{
-			title: "Industrial Tools"
+			title: "Промышленные Инстурменты"
 			x: 3.0d
 			y: 0.5d
 			description: [
-				"Industrial Drill is a most powerfull drill. It can do AOE mining in 3×3 area. It has 1.000.000 Energy storage. "
+				"Промышленный бур" - самый мощный бур. Он может вести AOE-добычу на площади 3×3. Он имеет 1.000.000 накопителей энергии. "
 				""
-				"Industrial Chainsaw is a top tier chainsaw.  It has 1M Energy storage. Chainsaw could be used as a replacement for Diamond Axe and able to chop down whole tree at once. It will cost 150 Energy to break one block."
+				"Промышленная цепная пила" - цепная пила высшего уровня.  Ее запас энергии составляет 1 млн. Бензопила может использоваться как замена алмазному топору и способна срубить целое дерево за один раз. Чтобы сломать один блок, потребуется 150 энергии".
 				""
-				"Industrial Jackhammer is a top tier JackHammer.  It has 1M energy storage.  Industrial Jackhammer is capable of 3×3 and 5×5 AoE mining when set to active. It will cost 150 energy to break one block."
+				"Промышленный отбойный молоток" - это отбойный молоток высшего уровня.  Его запас энергии составляет 1М.  Industrial Jackhammer способен добывать 3×3 и 5×5 AoE, когда он активен. Для разрушения одного блока потребуется 150 энергии."
 			]
 			dependencies: ["300FAC6161C1BCDB"]
 			id: "574F9D5B42852567"
@@ -717,7 +718,7 @@
 			}]
 		}
 		{
-			title: "Mining Drills"
+			title: "Шахтерские буры"
 			x: -3.0d
 			y: 0.5d
 			dependencies: ["300FAC6161C1BCDB"]
@@ -751,18 +752,18 @@
 			}]
 		}
 		{
-			title: "Scythes"
+			title: "Косы"
 			x: -3.0d
 			y: -0.5d
-			subtitle: "Harvest crops in a range!"
+			subtitle: "Собирайте посадки в округе!"
 			description: [
-				"Right clicking with a scythe will harvest (and replant) nearby crops in a certain range based on the tool, if those crops are fully grown."
+				"Щелчок правой кнопкой мыши с косой позволит собрать (и пересадить) близлежащие культуры в определенном диапазоне в зависимости от инструмента, если эти культуры полностью выросли."
 				""
-				"Right clicking on dirt/grass turns it into farmland like a normal hoe."
+				"Щелчок правой кнопкой мыши по грязи/траве превращает ее в сельскохозяйственные угодья, как обычная мотыга".
 				""
-				"Some scythes will harvest in a circular shape, whilst others will harvest in a square shape, based on their tier."
+				"Некоторые косы собирают урожай в форме круга, в то время как другие - в форме квадрата, в зависимости от их уровня".
 				""
-				"There is also a scythe-only enchant \"Crop Reaper\" that increases their range."
+				"Существует также зачарование только для косы \"Crop Reaper\", которое увеличивает радиус действия."
 			]
 			dependencies: ["300FAC6161C1BCDB"]
 			id: "2ED5C563BA705FB9"
@@ -786,8 +787,8 @@
 		{
 			x: 3.0d
 			y: 1.5d
-			subtitle: "Universal tool that combines Pickaxe, Axe, Showel, Sheers and even Sword in one simple rod."
-			description: ["It's mining level on par with diamond made tools. One mined block will cost 100 Energy and it will use 125 Energy on entity hit."]
+			subtitle: " Универсальный инструмент, сочетающий в себе Кирку, Топор, Лопату, Ножницы и даже Меч в одном простом жезле."
+			description: ["Уровень добычи наравне с алмазными инструментами. Один добытый блок будет стоить 100 энергии, а при ударе по существу будет расходоваться 125 энергии."]]
 			dependencies: ["300FAC6161C1BCDB"]
 			id: "6974C60B6461BD04"
 			tasks: [{
@@ -802,11 +803,11 @@
 			}]
 		}
 		{
-			title: "Tools of Dragon"
+			title: "Драконьи инструменты"
 			x: -2.0d
 			y: -2.5d
-			subtitle: "Harness the true strength of a dragon."
-			description: ["Scales are dropped by killing the Ender Dragon."]
+			subtitle: "Используйте истинную силу дракона"].
+			description: [Чешуя выпадает при убийстве Эндер дракона."]
 			dependencies: ["300FAC6161C1BCDB"]
 			id: "19CD33E3BCCBC283"
 			tasks: [
@@ -862,10 +863,10 @@
 			}]
 		}
 		{
-			title: "Gilded Tools"
+			title: "Позолоченные инструменты"
 			x: -1.0d
 			y: -2.5d
-			subtitle: "Obtain it by bartering with piglins!"
+			subtitle: "Получите их, торгуясь с пиглинами!"
 			dependencies: ["300FAC6161C1BCDB"]
 			id: "048BE9D4C85EC290"
 			tasks: [
@@ -921,7 +922,7 @@
 			}]
 		}
 		{
-			title: "Manasteel Tools"
+			title: "Манасталевые инстурменты"
 			x: 0.0d
 			y: -2.5d
 			dependencies: ["300FAC6161C1BCDB"]
@@ -979,7 +980,7 @@
 			}]
 		}
 		{
-			title: "Elementium Tools"
+			title: "Элеменетиевые Инструменты"
 			x: 1.0d
 			y: -2.5d
 			dependencies: ["300FAC6161C1BCDB"]
@@ -1043,7 +1044,7 @@
 			tasks: [{
 				id: "3D7700A29760BE66"
 				type: "checkmark"
-				title: "Weaponry"
+				title: "Вооружение"
 			}]
 		}
 		{
@@ -1135,7 +1136,7 @@
 			}]
 		}
 		{
-			title: "Tools of Terra"
+			title: "Инструменты Терры"
 			x: 2.0d
 			y: -2.5d
 			dependencies: ["300FAC6161C1BCDB"]
@@ -1196,15 +1197,15 @@
 		{
 			x: 7.0d
 			y: 2.5d
-			subtitle: "An advanced weapon that can be used against hostile mobs, or players."
+			subtitle: "Продвинутое оружие, которое можно использовать против враждебных мобов или игроков."
 			description: [
-				"The Saber requires power to work, every hit done to an entity will cost 150 Energy."
+				"Сабля требует энергии для работы, каждый удар по объекту будет стоить 150 энергии."
 				""
-				"The nano saber requires being active to work."
+				"Нано-сабля требует активации для работы".
 				""
-				"To toggle the active state the user must shift-right click."
+				"Чтобы переключить активное состояние, пользователь должен нажать правую кнопку мыши."
 				""
-				"A chat message will appear saying the new mod that the weapon is in."
+				"В чате появится сообщение о новом моде, в котором находится оружие".
 			]
 			dependencies: ["5EA2D6174BCFEC05"]
 			id: "22260C48A683F434"
@@ -1229,7 +1230,7 @@
 			title: "AIOTs"
 			x: -3.0d
 			y: 1.5d
-			subtitle: "All in One."
+			subtitle: "Все в одном."
 			dependencies: ["300FAC6161C1BCDB"]
 			id: "364F9B3D61ED0079"
 			tasks: [{
@@ -1252,8 +1253,8 @@
 		{
 			x: 5.0d
 			y: 2.5d
-			subtitle: "Chance to spawn a missile falling at the targeted block."
-			description: ["The missile deals 5 damage and has a 25% chance to deal double damage."]
+			subtitle: "Шанс заспавнить снаряд, падающий на целевой блок."
+			description: ["Снаряд наносит 5 урона и имеет 25% шанс нанести двойной урон."]
 			dependencies: ["5EA2D6174BCFEC05"]
 			id: "506164F383491B84"
 			tasks: [{
@@ -1274,10 +1275,10 @@
 			}]
 		}
 		{
-			title: "Machetes"
+			title: "Мачете"
 			x: -3.0d
 			y: -1.5d
-			subtitle: "Will break surrounding leaf blocks depending on the tool."
+			subtitle: "Разбивает окружающие блоки листьев в зависимости от инструмента."
 			dependencies: ["300FAC6161C1BCDB"]
 			id: "61B67FB2016F8850"
 			tasks: [{
@@ -1300,11 +1301,11 @@
 		{
 			x: 6.0d
 			y: 2.5d
-			subtitle: "THUNDERSTRIKE!"
+			subtitle: "УДАР ГРОМА!"
 			description: [
-				"When a creature is attacked with this sword, a weak chain lightning attack will deal 5 points of damage to a random monster in an 8 block radius, then jump to a next target in the same range around the previous one, dealing 1 less point in damage. "
+				"Когда существо атаковано этим мечом, дополнительная атака цепной молнии наносит 5 пунктов урона случайному монстру в радиусе 8 блоков, затем перепрыгивает к следующей цели в том же радиусе вокруг предыдущей, нанося на 1 пункт урона меньше. "
 				""
-				"This is repeated until 4 enemies are damaged."
+				"Это повторяется до тех пор, пока не будут повреждены 4 врага".
 			]
 			dependencies: ["5EA2D6174BCFEC05"]
 			id: "3C2FE1723CE04FB0"
@@ -1326,43 +1327,45 @@
 			}]
 		}
 		{
-			title: "Gate of Babylon"
+			title: "Врата Вавилона"
 			x: 8.0d
 			y: 2.5d
-			subtitle: "From Boomerangs to Yo-yos, and Spears to Broadswords."
+			subtitle: "От бумерангов до йо-йо, от копий до мечей."
 			description: [
-				"- Dagger"
-				"A small and nimble weapon. It makes up for short reach with a swift attack speed."
+				
+				"- Кинжал"
+				"Маленькое и проворное оружие. Он компенсирует короткий радиус действия быстрой скоростью атаки."
 				""
-				"- Spear"
-				"This weapon is slow and has extended reach, but can also be thrown to impale your enemies from a distance."
+				"- Копье"
+				"Это оружие медленное и имеет большой радиус действия, но его также можно метать, чтобы поражать врагов на расстоянии".
 				""
-				"- Broadsword"
-				"The classic Broadsword: slow in speed, yet mighty in attack power."
+				"- Широкий меч"
+				"Классический  Широкий меч: медленный в скорости, но могучий в силе атаки."
 				""
-				"- Rapier"
-				"Blazing sharp and swift in speed. Lunge forward to catch up to your enemies!"
+				"- Рапира"
+				"Острая и стремительная рапира. Сделайте выпад вперед, чтобы настигнуть врага!"
 				""
-				"- Haladie"
-				"A unique weapon with a double-hit mechanic. Slap your enemies twice for more impact!"
+				"- Обоюдоострый кинжал"
+				"Уникальное оружие с механикой двойного удара. Наносите врагам двойные удары для большего эффекта!"
 				""
-				"- Waraxe"
-				"The Broadsword version of Axes. Use it to smash the ground around you for an AOE attack!"
+				"- Боевой топор"
+				"Широкополая версия топоров. Используйте его, чтобы разбить землю вокруг себя для АОЕ-атаки!"
 				""
-				"- Katana"
-				"You are already dead. Teleport behind your enemies with a quick slash and eliminate them with ease."
+				"- Катана"
+				"Вы уже мертвы. Телепортируйтесь за спину врагам с помощью быстрой косой и уничтожайте их с легкостью."
 				""
-				"- Bow"
-				"The standard bow, augmented with stronger materials. Each bow offers different damage and draw speed modifications."
+				"- Лук"
+				"Стандартный лук, дополненный более прочными материалами. Каждый лук имеет различные модификации урона и скорости натяжения."
 				""
-				"- Shield"
-				"Stronger shields with more durability."
+				"- Щит"
+				"Более прочные щиты с повышенной прочностью".
 				""
-				"- Yo-Yo"
-				"A mid-range weapon that is a lot of fun to use. Why hit them with a sword when you could smack them with a Yo-yo?"
+				"- Йо-Йо"
+				"Оружие средней дальности, которое очень весело использовать. Зачем бить мечом, если можно ударить йо-йо?".
 				""
-				"- Boomerang"
-				"Your enemy won't see it coming, quite literally. Dance with grace around your foes as your Boomerang destroys them."
+				"- Бумеранг"
+				"Ваш враг не заметит его, в буквальном смысле. Танцуйте с грацией вокруг своих врагов, пока ваш бумеранг уничтожает их".
+
 			]
 			dependencies: ["5EA2D6174BCFEC05"]
 			id: "39491A7F275A02BD"
